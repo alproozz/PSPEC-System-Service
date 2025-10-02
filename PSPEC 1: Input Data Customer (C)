@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    char nama[50];
+    int umur;
+
+    printf("Masukkan Nama: ");
+    scanf("%s", nama);
+
+    printf("Masukkan Umur: ");
+    scanf("%d", &umur);
+
+    printf("\nData Customer berhasil dicatat:\n");
+    printf("Nama : %s\n", nama);
+    printf("Umur : %d\n", umur);
+
+    return 0;
+}

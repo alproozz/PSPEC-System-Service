@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int umur;
+
+    printf("Masukkan umur: ");
+    scanf("%d", &umur);
+
+    if (umur >= 18) {
+        printf("Status: Customer valid\n");
+    } else {
+        printf("Status: Customer belum valid\n");
+    }
+
+    return 0;
+}
